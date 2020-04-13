@@ -1,0 +1,26 @@
+.row.table-bordered{
+    margin-top: -1px;
+}
+.col.th{
+    font-weight: bold;
+    border-right: 1px solid #dee2e6;
+}
+.col.th:last-child{
+    border-right: none;
+}
+.col.td{
+    border-right: 1px solid #dee2e6;
+}
+.col.td:last-child{
+    border-right: none;
+}
+
+.notValidInput{
+    border-color: red;
+}
+.validInput{
+    border-color: green;
+}
+.h-btn:hover{
+    cursor: pointer;
+}
